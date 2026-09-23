@@ -1,6 +1,6 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0f766e"><link rel="manifest" href="manifest.json"><title>Catering Money Manager V16.1 — Backup Compatible</title><style>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0f766e"><link rel="manifest" href="manifest.json"><title>Catering Money Manager V16.2 — Universal Backup Import</title><style>
 :root{--p:#0f766e;--p2:#115e59;--bg:#f5f7f8;--card:#fff;--text:#17202a;--muted:#64748b;--line:#e2e8f0;--green:#047857;--red:#b91c1c;--orange:#b45309}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}header{background:linear-gradient(135deg,var(--p2),var(--p));color:#fff;padding:20px 15px;position:sticky;top:0;z-index:10}header h1{margin:0;font-size:22px}.sub{font-size:12px;opacity:.85;margin-top:4px}.wrap{max-width:1100px;margin:auto;padding:12px}.tabs{display:flex;gap:7px;overflow:auto;position:sticky;top:63px;background:var(--bg);padding:6px 0;z-index:9}.tabs button,.btn{border:0;border-radius:10px;padding:10px 13px;font-weight:700;white-space:nowrap}.tabs button{background:#dbe5e5}.tabs .on,.primary{background:var(--p);color:#fff}.card{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:14px;margin-bottom:12px;box-shadow:0 3px 15px #0000000d}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.form{display:grid;grid-template-columns:repeat(2,1fr);gap:9px}.form3{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}label{display:block;font-size:12px;font-weight:700;color:#475569}input,select,textarea{width:100%;padding:10px;margin-top:4px;border:1px solid #cbd5e1;border-radius:9px;font:inherit;background:#fff}textarea{min-height:65px}.stat{padding:12px}.small{font-size:12px;color:var(--muted)}.big{font-size:20px;font-weight:800;margin-top:4px}.green{color:var(--green)}.red{color:var(--red)}.orange{color:var(--orange)}.actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}table{width:100%;border-collapse:collapse;min-width:650px}th,td{padding:8px;border-bottom:1px solid var(--line);text-align:left;font-size:13px;vertical-align:top}th{background:#f8fafc}.scroll{overflow:auto}.badge{display:inline-block;padding:4px 7px;border-radius:99px;font-size:11px;font-weight:800;background:#ccfbf1;color:#115e59}.badge.red{background:#fee2e2;color:#991b1b}.badge.orange{background:#fef3c7;color:#92400e}.hidden{display:none}.datewrap{display:flex;gap:6px}.calbtn{padding:10px 12px;border:1px solid #cbd5e1;border-radius:9px;background:#fff;font-size:18px}.partner{border:1px solid var(--line);border-radius:12px;padding:11px}.line{display:flex;justify-content:space-between;gap:8px;padding:4px 0;border-bottom:1px dashed var(--line);font-size:12px}.line:last-child{border-bottom:0}.remaining{font-size:22px;font-weight:900;color:var(--p)}.totalremain{border:2px solid var(--p);background:#ecfeff}.empty{text-align:center;color:var(--muted);padding:18px}.catering{border-left:5px solid var(--red)}.catering.partial{border-left-color:var(--orange)}.catering.clear{border-left-color:var(--green)}.season-open{border-left:5px solid var(--green)}.season-closed{border-left:5px solid #64748b}.notice{padding:10px;border-radius:10px;background:#fff7ed;color:#9a3412;font-size:12px}.success{padding:10px;border-radius:10px;background:#ecfdf5;color:#065f46;font-size:12px}.phone{color:#0f766e;text-decoration:none;font-weight:700}.pendingCall{border:1px solid #fed7aa;background:#fff7ed;border-radius:12px;padding:11px;margin:8px 0}.pendingCall .actions{margin-top:7px}.backupWarn{padding:10px;border-radius:10px;background:#fff7ed;color:#9a3412;font-size:12px}.backupOk{padding:10px;border-radius:10px;background:#ecfdf5;color:#065f46;font-size:12px}.hiddenInput{position:absolute;right:0;top:0;width:48px;height:44px;opacity:0;border:0;padding:0;margin:0;display:block;cursor:pointer;z-index:3}.datewrap{position:relative}@media(max-width:700px){.grid,.form,.form3{grid-template-columns:1fr 1fr}.form,.form3{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}}
-</style></head><body><header><h1>🍽️ Catering Money Manager V16.1 — Backup Compatible</h1><div class=sub>Season-based catering • payments • expenses • partner settlement</div></header><main class=wrap><nav class=tabs><button class=on data-tab=dashboard>Dashboard</button><button data-tab=seasons>Seasons</button><button data-tab=catering>Catering</button><button data-tab=received>Money Received</button><button data-tab=expenses>Expenses</button><button data-tab=partners>Partners</button></nav>
+</style></head><body><header><h1>🍽️ Catering Money Manager V16.2 — Universal Backup Import</h1><div class=sub>Season-based catering • payments • expenses • partner settlement</div></header><main class=wrap><nav class=tabs><button class=on data-tab=dashboard>Dashboard</button><button data-tab=seasons>Seasons</button><button data-tab=catering>Catering</button><button data-tab=received>Money Received</button><button data-tab=expenses>Expenses</button><button data-tab=partners>Partners</button></nav>
 <section id=dashboard><div id=seasonBanner></div><div id=stats class=grid></div><div class="card totalremain"><h2>Total Remaining Balance</h2><div id=totalRemain class=remaining>₹0.00</div><div class=small>Current money available across all 4 partners after expenses, transfers and personal usage.</div></div><div class=card><h2>Partner Balances — Detailed</h2><div id=partnerDash class=grid></div></div><div class=card><h2>Recent Activity</h2><div class=scroll><table><thead><tr><th>Date</th><th>Type</th><th>Details</th><th>Amount</th></tr></thead><tbody id=recent></tbody></table></div></div><div class=card><h2>☁️ Backup Reminder</h2><div id=backupStatus></div><div class=actions><button class="btn primary" id=export>Backup Now</button><button class=btn id=import>Restore Backup</button><input id=file type=file accept=.json class=hiddenInput></div></div><div class=card><h2>Backup & Partner Names</h2><div id=names class=form></div><div class=actions><button class=btn id=clear>Clear All</button></div></div></section>
 <section id=seasons class=hidden><div class=card><h2>📅 Season Management</h2><div class=form><div><label>Season name</label><input id=sname placeholder="2026 Dasara Season"></div><div><label>Start date (dd/mm/yyyy)</label><div class=datewrap><input id=sstart placeholder="dd/mm/yyyy"><button class=calbtn type=button onclick="openCal('sstart')">📅</button><input id=sstartCal type=date class=hiddenInput onchange="pickCal('sstart','sstartCal')"></div></div></div><div class=actions><button class="btn primary" id=createSeason>Create New Season</button></div></div><div id=seasonList></div><div class=card><h2>🔒 Season Settlement</h2><div id=settleArea class=small>Select an open season above to prepare settlement.</div></div></section>
 <section id=catering class=hidden><div class=card><h2>🍽️ Catering Sent</h2><div class=form><div><label>Season</label><select id=cseason></select></div><div><label>Filter date (dd/mm/yyyy)</label><div class=datewrap><input id=filterDate placeholder="dd/mm/yyyy"><button class=calbtn type=button onclick="openCal('filterDate')">📅</button><input id=filterDateCal type=date class=hiddenInput onchange="pickCal('filterDate','filterDateCal');renderCatering()"></div></div><div><label>Payment Status</label><select id=cstatusFilter><option value="all">All Caterings</option><option value="pending">Pending</option><option value="partial">Partially Received</option><option value="cleared">Cleared</option></select></div></div></div><div class=card><h2>➕ Add Catering Sent</h2><div class=form><div><label>Date food sent (dd/mm/yyyy)</label><div class=datewrap><input id=cdate placeholder="dd/mm/yyyy"><button class=calbtn type=button onclick="openCal('cdate')">📅</button><input id=cdateCal type=date class=hiddenInput onchange="pickCal('cdate','cdateCal')"></div></div><div><label>To whom food was sent</label><input id=customer></div><div><label>Phone number</label><input id=phone type=tel inputmode=tel placeholder="10-digit mobile number"></div><div><label>Catering details</label><input id=food></div><div><label>Members</label><input id=members type=number min=0></div><div><label>Rate per member ₹</label><input id=rate type=number min=0></div><div><label>Total ₹</label><input id=total type=number min=0></div></div><label>Notes</label><textarea id=notes></textarea><div class=actions><button class="btn primary" id=addC>Save Catering</button><button class=btn id=cancelC hidden>Cancel Edit</button></div></div><div class=card><h2>📋 Catering & Payment Status</h2><div id=cateringList></div></div></section>
@@ -53,14 +53,28 @@ $('cancelC').onclick=clearC;$('cancelP').onclick=clearP;$('cancelE').onclick=cle
 $('export').onclick=()=>{S.lastBackupAt=Date.now();localStorage.setItem(KEY,JSON.stringify(S));let a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(S,null,2)],{type:'application/json'}));a.download='catering-money-manager-backup-'+today()+'.json';a.click();renderBackupStatus();};
 $('import').onclick=()=>$('file').click();
 function normalizeBackup(raw){
-  if(!raw || typeof raw!=='object' || Array.isArray(raw)) throw new Error('Backup must be a JSON object');
+  // Accept V7 backups plus common JSON wrappers/BOM/stringified JSON.
+  if(typeof raw==='string'){
+    let t=raw.replace(/^\uFEFF/,'').trim();
+    raw=JSON.parse(t);
+    if(typeof raw==='string') raw=JSON.parse(raw.replace(/^\uFEFF/,'').trim());
+  }
+  if(!raw || typeof raw!=='object' || Array.isArray(raw)) throw new Error('Backup JSON is not an object');
+  // Some file/export tools wrap the actual app data.
+  if(raw.data && typeof raw.data==='object' && !Array.isArray(raw.data)) raw=raw.data;
+  if(raw.backup && typeof raw.backup==='object' && !Array.isArray(raw.backup)) raw=raw.backup;
   const x=raw;
   const arr=k=>Array.isArray(x[k])?x[k]:[];
-  const partners=arr('partners').length?arr('partners').slice(0,4).map((v,i)=>String(v||'Partner '+(i+1))):['Partner 1','Partner 2','Partner 3','Partner 4'];
+  const hasKnown=['partners','seasons','caterings','payments','expenses','transfers','personalUses','settlements'].some(k=>Array.isArray(x[k]));
+  if(!hasKnown) throw new Error('No Catering Money Manager data found in this JSON');
+  const partners=arr('partners').length?arr('partners').slice(0,4).map((v,i)=>{
+    if(v && typeof v==='object') return String(v.name||v.partner||('Partner '+(i+1)));
+    return String(v||'Partner '+(i+1));
+  }):['Partner 1','Partner 2','Partner 3','Partner 4'];
   while(partners.length<4) partners.push('Partner '+(partners.length+1));
-  const seasons=arr('seasons').map(s=>({...s,id:s.id||id(),name:s.name||'Imported Season',startDate:s.startDate||today(),endDate:s.endDate||null,status:s.status==='closed'?'closed':'open',carriedIn:+s.carriedIn||0}));
+  const seasons=arr('seasons').map(s=>({...s,id:s?.id||id(),name:s?.name||'Imported Season',startDate:s?.startDate||today(),endDate:s?.endDate||null,status:s?.status==='closed'?'closed':'open',carriedIn:+s?.carriedIn||0}));
   const active=seasons.find(s=>s.id===x.activeSeason);
-  const caterings=arr('caterings').map(c=>({...c,id:c.id||id(),seasonId:c.seasonId||active?.id||seasons[0]?.id||null,phone:c.phone||'',customer:c.customer||'',food:c.food||'',members:+c.members||0,rate:+c.rate||0,total:+c.total||0,notes:c.notes||''}));
+  const caterings=arr('caterings').map(c=>({...c,id:c?.id||id(),seasonId:c?.seasonId||active?.id||seasons[0]?.id||null,phone:c?.phone||'',customer:c?.customer||c?.to||'',food:c?.food||c?.details||'',members:+c?.members||0,rate:+c?.rate||0,total:+c?.total||c?.amount||0,notes:c?.notes||''}));
   if(!seasons.length && caterings.length){
     const sid=id();seasons.push({id:sid,name:'Imported / Existing Records',startDate:caterings.map(c=>c.date).filter(Boolean).sort()[0]||today(),endDate:null,status:'open',carriedIn:0});
     caterings.forEach(c=>c.seasonId=sid);
@@ -68,14 +82,36 @@ function normalizeBackup(raw){
   const sidSet=new Set(seasons.map(s=>s.id));
   const fallbackSid=seasons[0]?.id||null;
   caterings.forEach(c=>{if(!sidSet.has(c.seasonId)) c.seasonId=fallbackSid});
-  const payments=arr('payments').map(p=>({...p,id:p.id||id(),cateringId:p.cateringId||'',date:p.date||today(),amount:+p.amount||0,partner:+p.partner||0,mode:p.mode==='account'?'account':'cash'}));
-  const expenses=arr('expenses').map(e=>({...e,id:e.id||id(),seasonId:e.seasonId||fallbackSid,date:e.date||today(),partner:+e.partner||0,cat:e.cat||'Other',mode:e.mode==='account'?'account':'cash',amount:+e.amount||0,desc:e.desc||''}));
-  const transfers=arr('transfers').map(t=>({...t,id:t.id||id(),seasonId:t.seasonId||fallbackSid,date:t.date||today(),from:+t.from||0,to:+t.to||0,mode:t.mode==='account'?'account':'cash',amount:+t.amount||0}));
-  const personalUses=arr('personalUses').map(u=>({...u,id:u.id||id(),seasonId:u.seasonId||fallbackSid,date:u.date||today(),partner:+u.partner||0,mode:u.mode==='account'?'account':'cash',amount:+u.amount||0,desc:u.desc||''}));
+  const payments=arr('payments').map(p=>({...p,id:p?.id||id(),cateringId:p?.cateringId||p?.catering||'',date:p?.date||today(),amount:+p?.amount||0,partner:+p?.partner||0,mode:String(p?.mode||'cash').toLowerCase()==='account'?'account':'cash'}));
+  const expenses=arr('expenses').map(e=>({...e,id:e?.id||id(),seasonId:e?.seasonId||fallbackSid,date:e?.date||today(),partner:+e?.partner||0,cat:e?.cat||e?.category||'Other',mode:String(e?.mode||'cash').toLowerCase()==='account'?'account':'cash',amount:+e?.amount||0,desc:e?.desc||e?.description||''}));
+  const transfers=arr('transfers').map(t=>({...t,id:t?.id||id(),seasonId:t?.seasonId||fallbackSid,date:t?.date||today(),from:+t?.from||0,to:+t?.to||0,mode:String(t?.mode||'cash').toLowerCase()==='account'?'account':'cash',amount:+t?.amount||0}));
+  const personalUses=arr('personalUses').map(u=>({...u,id:u?.id||id(),seasonId:u?.seasonId||fallbackSid,date:u?.date||today(),partner:+u?.partner||0,mode:String(u?.mode||'cash').toLowerCase()==='account'?'account':'cash',amount:+u?.amount||0,desc:u?.desc||u?.description||''}));
   const settlements=arr('settlements');
   return {partners,seasons,activeSeason:active?.id||fallbackSid,caterings,payments,expenses,transfers,personalUses,settlements,lastBackupAt:+x.lastBackupAt||0};
 }
-$('file').onchange=e=>{let f=e.target.files?.[0];if(!f)return;let r=new FileReader();r.onload=()=>{try{const raw=JSON.parse(r.result);S=normalizeBackup(raw);localStorage.setItem(KEY,JSON.stringify(S));render();renderBackupStatus();$('file').value='';alert('Backup imported successfully. Your V7 records were converted for V16 and preserved.')}catch(err){console.error(err);$('file').value='';alert('This backup could not be imported. Please select the original V7 JSON backup file. No existing data was changed.')}};r.readAsText(f)};
+$('file').onchange=e=>{
+  let f=e.target.files?.[0]; if(!f)return;
+  let r=new FileReader();
+  r.onload=()=>{
+    try{
+      let text=String(r.result||'').replace(/^\uFEFF/,'').trim();
+      if(!text) throw new Error('The selected file is empty');
+      let raw=JSON.parse(text);
+      if(typeof raw==='string') raw=JSON.parse(raw.replace(/^\uFEFF/,'').trim());
+      let imported=normalizeBackup(raw);
+      S=imported;
+      localStorage.setItem(KEY,JSON.stringify(S));
+      render();renderBackupStatus();$('file').value='';
+      alert('Backup imported successfully. Your V7 records have been converted and preserved.');
+    }catch(err){
+      console.error('Backup import failed:',err);
+      $('file').value='';
+      alert('Import failed: '+(err?.message||'The file is not valid JSON or does not contain Catering Money Manager data.')+'\n\nYour existing app data was not changed.');
+    }
+  };
+  r.onerror=()=>{ $('file').value=''; alert('The backup file could not be read. Your existing app data was not changed.'); };
+  r.readAsText(f);
+};
 $('clear').onclick=()=>{if(confirm('Delete all data on this device?')){S={partners:['Partner 1','Partner 2','Partner 3','Partner 4'],seasons:[],activeSeason:null,caterings:[],payments:[],expenses:[],transfers:[],personalUses:[],settlements:[],lastBackupAt:0};save()}};function rename(i,v){S.partners[i]=v.trim()||'Partner '+(i+1);save()}
 $('sstart').value=fmt(today());['cdate','pdate','edate','tdate','udate'].forEach(x=>$(x).value=fmt(today()));
 // App Lock removed in V16. Clear only the old lock setting; all catering data remains untouched.
