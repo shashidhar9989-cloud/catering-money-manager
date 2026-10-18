@@ -25,3 +25,5 @@ Install safely:
 - Keep existing cloud-config.js and Supabase project/data.
 - Do not rerun supabase-setup.sql and do not clear browser data.
 - After deployment, test the Bookings menu, WhatsApp sharing, selected season in Expenses, calendar, and a draft booking with multiple advances before using it for live payments.
+
+V19.5.11 fix: New Booking referenced updateOrderStatusLabel(), which was not defined in the inline application script. The action now updates the date label directly and opens the catering form. Cache version bumped.
