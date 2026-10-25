@@ -1,4 +1,4 @@
-Catering Money Manager V19.5.15 — Bottom Navigation Fix
+Catering Money Manager V19.5.16 — Sync Verification & Navigation Polish
 
 This release refreshes the responsive dashboard and adds a mobile bottom navigation bar and quick actions. Existing data, booking, season, payment, expense, partner, backup, and cloud-sync logic are retained.
 
@@ -33,3 +33,9 @@ Install safely:
 - After deployment, test the Bookings menu, WhatsApp sharing, selected season in Expenses, calendar, and a draft booking with multiple advances before using it for live payments.
 
 V19.5.11 fix: New Booking referenced updateOrderStatusLabel(), which was not defined in the inline application script. The action now updates the date label directly and opens the catering form. Cache version bumped.
+
+
+V19.5.16 additions:
+- Verify Data compares this device against the signed-in cloud snapshot without changing records. Differences produce a warning and are not auto-overwritten.
+- Bottom navigation has clearer active state, touch feedback, keyboard focus styling, and reduced-motion support.
+- Verification compares saved records and the active-season reference; it does not prove another device has no unsynced local changes.
