@@ -1,4 +1,4 @@
-Catering Money Manager V19.5.14 — Mobile Dashboard Redesign
+Catering Money Manager V19.5.15 — Bottom Navigation Fix
 
 This release refreshes the responsive dashboard and adds a mobile bottom navigation bar and quick actions. Existing data, booking, season, payment, expense, partner, backup, and cloud-sync logic are retained.
 
